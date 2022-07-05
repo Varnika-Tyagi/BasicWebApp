@@ -26,7 +26,7 @@ public class QueryProcessorTest {
     }
 
     @Test
-    public void isNotCaseSensitive() throws Exception {
+    public void isNotCaseSensitive2() throws Exception {
         assertThat(queryProcessor.process("hello"), containsString("too!"));
     }
 
