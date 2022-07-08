@@ -13,7 +13,7 @@ public class QueryProcessor {
         else if (query.toLowerCase().contains("hello")) {
             return "hello to you too!";}
         else if (query.toLowerCase().contains("what is your name")){
-            return "html";
+            return "<html>";
         }
         return "";
     }
